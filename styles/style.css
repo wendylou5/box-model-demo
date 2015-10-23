@@ -1,8 +1,8 @@
-.highlight {
+/*.highlight {
   color: orange;
 }
 /* no space means this applies to aside tags that have a class of highlight! */
-aside.highlight {
+/*aside.highlight {
   background-color: black;
 }
 #homepage {
@@ -14,3 +14,35 @@ a:hover {
   color: red;
   font-size: 2em;
 }
+*/
+
+
+h1:hover {
+  color:mintcream;  
+}
+
+a:visited {
+  text-decoration: none;  
+}
+  
+header {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+article {
+  width: 60%;
+  margin: auto;  
+}
+
+p::first-letter {
+  font-size: 1.5em;
+}
+
+footer {
+  border: 2px solid magenta;
+  border-radius: 25px;
+}
+  
+  
